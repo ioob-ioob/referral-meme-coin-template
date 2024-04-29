@@ -46,5 +46,28 @@ The ReferralToken contract is a simple ERC20 token contract with referral and de
 ## Security
 
 - Usage of ERC20 standard
+- Only referrals can set their referrer
 - Usage of safe math operations to prevent overflow and underflow vulnerabilities.
 - Usage of OnlyOwner for admin operations
+
+## Tests and usage example
+
+- Init CuteCatToken:
+
+  ![alt text](imgs/image.png)
+
+- Add liquidity:
+
+  ![alt text](imgs/image2.png)
+
+- Use setReferral:
+
+  ![alt text](imgs/image3.png)
+
+- Perform swap:
+
+  ![alt text](imgs/image4.png)
+
+- Referrer get his share
+
+  ![alt text](imgs/image5.png)
