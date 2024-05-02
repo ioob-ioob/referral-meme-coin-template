@@ -49,6 +49,8 @@ The ReferralToken contract is a simple ERC20 token contract with referral and de
 - Only referrals can set their referrer
 - Usage of safe math operations to prevent overflow and underflow vulnerabilities.
 - Usage of OnlyOwner for admin operations
+- 83.58/100 ([solidityscan.com](https://solidityscan.com/))
+  ![alt text](imgs/solscan.png)
 
 ## Tests and usage example
 
