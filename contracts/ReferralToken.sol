@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.25;
+pragma solidity ^0.8.23;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
@@ -28,10 +28,10 @@ contract ReferralToken is IERC20, IERC20Metadata, Ownable {
     mapping(address => address) public referralOf;
 
     // Referral fee percentage (0.05% by default)
-    uint256 public referralFee = 50;
+    uint256 public referralFee = 5;
 
     // Developer fee percentage (0.1% by default)
-    uint256 public devFee = 100;
+    uint256 public devFee = 10;
 
     /**
      * @dev Constructor to initialize the token.
