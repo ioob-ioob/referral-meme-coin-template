@@ -4,6 +4,8 @@
 
 [Contract Review Document](https://docs.google.com/document/d/1rOdZ3ZtDfZKYmgiatPcUlx6QkNSTE3yzMigOxl1sfME/edit?usp=sharing)
 
+[Figma file](https://www.figma.com/file/llMxOR11X2Z2tp8tXCrjwo/ioob?type=design&node-id=93-424&mode=design)
+
 ## Overview
 
 The ReferralToken contract is a simple ERC20 token contract with referral and developer fees. It allows users to transfer tokens and set a referrer for their account, earning referral fees for the referrer when transfers occur.
