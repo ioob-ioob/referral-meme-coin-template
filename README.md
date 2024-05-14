@@ -6,7 +6,7 @@
 
 [Figma file](https://www.figma.com/file/llMxOR11X2Z2tp8tXCrjwo/ioob?type=design&node-id=93-424&mode=design)
 
-[Forward App](https://refmemelink.test.forwardfactory.ai/subdomain) | [Forward Template](https://test.forwardfactory.ai/services/marketplace/description/666e9acf-f16d-4a07-b332-2f30e518f892) | [Video guide](https://www.youtube.com/watch?v=YABUe8uS-wY)
+[Forward App](https://refmemelink.test.forwardfactory.ai/subdomain) | [Forward Template](https://test.forwardfactory.ai/services/marketplace/description/666e9acf-f16d-4a07-b332-2f30e518f892) | [Video guide](https://youtu.be/eAoGn0mKWps)
 
 ## Overview
 
