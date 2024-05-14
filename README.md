@@ -6,9 +6,19 @@
 
 [Figma file](https://www.figma.com/file/llMxOR11X2Z2tp8tXCrjwo/ioob?type=design&node-id=93-424&mode=design)
 
+[Forward App](https://refmemelink.test.forwardfactory.ai/subdomain)
+[Forward Template](https://test.forwardfactory.ai/services/marketplace/description/666e9acf-f16d-4a07-b332-2f30e518f892)
+[Video guide](https://www.youtube.com/watch?v=YABUe8uS-wY)
+
 ## Overview
 
 The ReferralToken contract is a simple ERC20 token contract with referral and developer fees. It allows users to transfer tokens and set a referrer for their account, earning referral fees for the referrer when transfers occur.
+
+## Use cases
+
+- Rewarding the community for actively trading the token.
+- Influencers can earn by building up the token's community, everyone wins.
+- Developers can surprise with new marketing strategies.
 
 ## Features
 
@@ -32,6 +42,7 @@ The ReferralToken contract is a simple ERC20 token contract with referral and de
 1. `setReferral(address referrer)`: Sets the referrer for the calling account.
 2. `setDevFee(uint256 newFee)`: Sets the new devFee up to 5% and not less than refFee
 3. `setRefFee(uint256 newFee)`: Sets the new refFee up to 5% and not greater than devFee
+4. `setDexLink(string memory newDexLink)`: Sets the new Dex Link to your token, to show that on User panel.
 
 ## Fees
 
@@ -40,10 +51,12 @@ The ReferralToken contract is a simple ERC20 token contract with referral and de
 
 ## Usage
 
-1. Deploy the contract with a name, symbol, and initial supply.
-2. Users can transfer tokens between accounts using the `transfer` function.
-3. Users can set a referrer for their account using the `setReferral` function.
-4. Referrers earn referral fees when transfers occur between their referred accounts.
+1. Customize view of User and Admin panel
+2. Deploy the contract with a name, symbol, and initial supply.
+3. Provide liquidity on your favorite dex and set dex link to show that on User panel.
+4. Users can transfer tokens between accounts using the transfer function.
+5. Users can set a referrer for their account using the setReferral function.
+6. Referrers earn referral fees when transfers occur between their referred accounts.
 
 ## Security
 
